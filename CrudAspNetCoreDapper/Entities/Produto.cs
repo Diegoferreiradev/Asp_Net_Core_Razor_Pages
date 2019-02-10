@@ -16,7 +16,7 @@ namespace CrudAspNetCoreDapper.Entities
 
         [Required]
         [Display(Name = "Descrição do Produto")]
-        [StringLength(10, ErrorMessage = "A descrição deve ter entre 10 até 350 caracteres")]
+        [StringLength(35, ErrorMessage = "A descrição deve ter entre 10 até 350 caracteres")]
         public string Descricao { get; set; }
 
         [Required]
