@@ -24,25 +24,22 @@
                                         <div class="panel">
                                             <div class="panel-body">
                                                 <div class="col-md-12" style="margin-top:15px;">
-                                                    <input asp-for="produto.Nome" type="hidden" />
+                                                    <input asp-for="produto.ProdutoId" type="hidden" />
                                                     <label asp-for="produto.Nome" style="font-weight:bold;"></label>
                                                     <input type="text" class="form-control" asp-for="produto.Nome" />
                                                     <span class="alert-danger" asp-validation-for="produto.Nome"></span>
                                                 </div>
                                                 <div class="col-md-12" style="margin-top:15px;">
-                                                    <input asp-for="produto.Descricao" type="hidden" />
                                                     <label asp-for="produto.Descricao" style="font-weight:bold;"></label>
                                                     <input type="text" class="form-control" asp-for="produto.Descricao" />
                                                     <span class="alert-danger" asp-validation-for="produto.Descricao"></span>
                                                 </div>
                                                 <div class="col-md-12" style="margin-top:15px;">
-                                                    <input asp-for="produto.Preco" type="hidden" />
                                                     <label asp-for="produto.Preco" style="font-weight:bold;"></label>
                                                     <input type="text" class="form-control" asp-for="produto.Preco" />
                                                     <span class="alert-danger" asp-validation-for="produto.Preco"></span>
                                                 </div>
                                                 <div class="col-md-12" style="margin-top:15px;">
-                                                    <input asp-for="produto.Estoque" type="hidden" />
                                                     <label asp-for="produto.Estoque" style="font-weight:bold;"></label>
                                                     <input type="text" class="form-control" asp-for="produto.Estoque" />
                                                     <span class="alert-danger" asp-validation-for="produto.Estoque"></span>
